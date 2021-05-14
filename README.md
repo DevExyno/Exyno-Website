@@ -25,7 +25,9 @@ And then you have to run `npm install` to install all the packages for the websi
 # Launch the Webpage
 
 1. Run `node .`
-2. Enjoy it!
+2. open the browser and type `localhost:8080` in the search bar
+3. The website will show up!
+4. Enjoy it!
 
 # Contributing
 Before creating an issue, please ensure that it hasn't already been reported/suggested. And if you have a question, please ask it in the [Discord server](https://discord.gg/bknyd5q) instead of opening an issue
