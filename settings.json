@@ -1,0 +1,1506 @@
+{
+  "website": {
+    "name": "EXYNO",
+    "invite": "https://discordapp.com/oauth2/authorize?client_id=689939340293701710&scope=bot&permissions=1983381367"
+  },
+  "commands": {
+    "Administration": [
+      {
+        "name": "addcommand",
+        "category": "Administration",
+        "description": "Add a custom command.",
+        "permissions": [
+          "SEND_MESSAGES",
+          "EMBED_LINKS"
+        ],
+        "aliases": [
+          "custom-command"
+        ],
+        "usage": "e!addcommand [name] [answer]"
+      },
+      {
+        "name": "addemoji",
+        "category": "Administration",
+        "description": "Add an emoji to the server.",
+        "permissions": [
+          "SEND_MESSAGES",
+          "EMBED_LINKS"
+        ],
+        "aliases": [],
+        "usage": "e!addemoji [image-url] [name]"
+      },
+      {
+        "name": "automod",
+        "category": "Administration",
+        "description": "Toggle Discord invites automatic deletion",
+        "permissions": [
+          "SEND_MESSAGES",
+          "EMBED_LINKS"
+        ],
+        "aliases": [],
+        "usage": "e!automod [on/off] (#channel)"
+      },
+      {
+        "name": "autorole",
+        "category": "Administration",
+        "description": "Toggle autorole in the server",
+        "permissions": [
+          "SEND_MESSAGES",
+          "EMBED_LINKS"
+        ],
+        "aliases": [
+          "ar"
+        ],
+        "usage": "e!autorole [on/off] (@role)"
+      },
+      {
+        "name": "backup",
+        "category": "Administration",
+        "description": "Manage your server backups in an efficient way",
+        "permissions": [
+          "SEND_MESSAGES",
+          "EMBED_LINKS",
+          "ADMINISTRATOR"
+        ],
+        "aliases": [],
+        "usage": "e!backup [create/load/infos]"
+      },
+      {
+        "name": "configuration",
+        "category": "Administration",
+        "description": "Shows the server configuration",
+        "permissions": [
+          "SEND_MESSAGES",
+          "EMBED_LINKS"
+        ],
+        "aliases": [
+          "conf",
+          "config"
+        ],
+        "usage": "e!configuration"
+      },
+      {
+        "name": "delcommand",
+        "category": "Administration",
+        "description": "Remove a custom command",
+        "permissions": [
+          "SEND_MESSAGES",
+          "EMBED_LINKS"
+        ],
+        "aliases": [],
+        "usage": "e!delcommand [name-of-the-command]"
+      },
+      {
+        "name": "deletemod",
+        "category": "Administration",
+        "description": "Toggle moderation commands auto deletion",
+        "permissions": [
+          "SEND_MESSAGES",
+          "EMBED_LINKS"
+        ],
+        "aliases": [
+          "autodeletemodcommands"
+        ],
+        "usage": "e!deletemod [on/off]"
+      },
+      {
+        "name": "goodbye",
+        "category": "Administration",
+        "description": "Toggle goodbye messages",
+        "permissions": [
+          "SEND_MESSAGES",
+          "EMBED_LINKS"
+        ],
+        "aliases": [],
+        "usage": "e!goodbye"
+      },
+      {
+        "name": "ignore",
+        "category": "Administration",
+        "description": "Toggle commands in a channel",
+        "permissions": [
+          "SEND_MESSAGES",
+          "EMBED_LINKS"
+        ],
+        "aliases": [
+          "disableChannel"
+        ],
+        "usage": "e!ignore [#channel]"
+      },
+      {
+        "name": "setlang",
+        "category": "Administration",
+        "description": "Change the server language",
+        "permissions": [
+          "SEND_MESSAGES",
+          "EMBED_LINKS"
+        ],
+        "aliases": [],
+        "usage": "e!setlang [language]"
+      },
+      {
+        "name": "setmodlogs",
+        "category": "Administration",
+        "description": "Set the moderation logs channel",
+        "permissions": [
+          "SEND_MESSAGES",
+          "EMBED_LINKS"
+        ],
+        "aliases": [],
+        "usage": "e!setmodlogs (#channel)"
+      },
+      {
+        "name": "setprefix",
+        "category": "Administration",
+        "description": "Set the moderation logs channel",
+        "permissions": [
+          "SEND_MESSAGES",
+          "EMBED_LINKS"
+        ],
+        "aliases": [],
+        "usage": "e!setprefix"
+      },
+      {
+        "name": "setreports",
+        "category": "Administration",
+        "description": "Set the reports channel",
+        "permissions": [
+          "SEND_MESSAGES",
+          "EMBED_LINKS"
+        ],
+        "aliases": [],
+        "usage": "e!setreports (#channel)"
+      },
+      {
+        "name": "setsuggest",
+        "category": "Administration",
+        "description": "Set the suggestions channel",
+        "permissions": [
+          "SEND_MESSAGES",
+          "EMBED_LINKS"
+        ],
+        "aliases": [
+          "setsuggest",
+          "setsuggestions",
+          "setsuggestion"
+        ],
+        "usage": "e!setsuggests (#channel)"
+      },
+      {
+        "name": "slowmode",
+        "category": "Administration",
+        "description": "Set a channel cooldown",
+        "permissions": [
+          "SEND_MESSAGES",
+          "EMBED_LINKS"
+        ],
+        "aliases": [
+          "slowmotion"
+        ],
+        "usage": "e!slowmode [#channel] (time)"
+      },
+      {
+        "name": "welcome",
+        "category": "Administration",
+        "description": "Toggle welcome messages",
+        "permissions": [
+          "SEND_MESSAGES",
+          "EMBED_LINKS"
+        ],
+        "aliases": [],
+        "usage": "e!welcome"
+      }
+    ],
+    "Anime": [
+      {
+        "name": "baka",
+        "category": "Anime",
+        "description": "Generates a Anime-baka image using nekos.life API.",
+        "permissions": [
+          "SEND_MESSAGES",
+          "EMBED_LINKS"
+        ],
+        "aliases": [],
+        "usage": "e!baka"
+      },
+      {
+        "name": "cuddle",
+        "category": "Anime",
+        "description": "Generates a Anime-cuddle image using nekos.life API.",
+        "permissions": [
+          "SEND_MESSAGES",
+          "EMBED_LINKS"
+        ],
+        "aliases": [],
+        "usage": "e!cuddle <@user>"
+      },
+      {
+        "name": "hug",
+        "category": "Anime",
+        "description": "Generates a Anime-hug image using nekos.life API.",
+        "permissions": [
+          "SEND_MESSAGES",
+          "EMBED_LINKS"
+        ],
+        "aliases": [],
+        "usage": "e!hug <@user>"
+      },
+      {
+        "name": "kiss",
+        "category": "Anime",
+        "description": "Generates a Anime-kiss image using nekos.life API.",
+        "permissions": [
+          "SEND_MESSAGES",
+          "EMBED_LINKS"
+        ],
+        "aliases": [],
+        "usage": "e!kiss <@user>"
+      },
+      {
+        "name": "pat",
+        "category": "Anime",
+        "description": "Generates a Anime-pat image using nekos.life API.",
+        "permissions": [
+          "SEND_MESSAGES",
+          "EMBED_LINKS"
+        ],
+        "aliases": [],
+        "usage": "e!pat <@user>"
+      },
+      {
+        "name": "poke",
+        "category": "Anime",
+        "description": "Generates a Anime-poke image using nekos.life API.",
+        "permissions": [
+          "SEND_MESSAGES",
+          "EMBED_LINKS"
+        ],
+        "aliases": [],
+        "usage": "e!poke <@user>"
+      },
+      {
+        "name": "slap",
+        "category": "Anime",
+        "description": "Generates a Anime-slap image using nekos.life API.",
+        "permissions": [
+          "SEND_MESSAGES",
+          "EMBED_LINKS"
+        ],
+        "aliases": [],
+        "usage": "e!slap <@user>"
+      },
+      {
+        "name": "smug",
+        "category": "Anime",
+        "description": "Generates a Anime-smug image using nekos.life API.",
+        "permissions": [
+          "SEND_MESSAGES",
+          "EMBED_LINKS"
+        ],
+        "aliases": [],
+        "usage": "e!smug <@user>"
+      },
+      {
+        "name": "tickle",
+        "category": "Anime",
+        "description": "Generates a Anime-tickle image using nekos.life API.",
+        "permissions": [
+          "SEND_MESSAGES",
+          "EMBED_LINKS"
+        ],
+        "aliases": [],
+        "usage": "e!tickle <@user>"
+      }
+    ],
+    "Economy": [
+      {
+        "name": "birthdate",
+        "category": "Economy",
+        "description": "Set the birthday date that appear on your profile",
+        "permissions": [
+          "SEND_MESSAGES",
+          "EMBED_LINKS"
+        ],
+        "aliases": [
+          "bd"
+        ],
+        "usage": "e!birthdate (date)"
+      },
+      {
+        "name": "deposit",
+        "category": "Economy",
+        "description": "Deposit your money in the bank",
+        "permissions": [
+          "SEND_MESSAGES",
+          "EMBED_LINKS"
+        ],
+        "aliases": [
+          "bank",
+          "dep"
+        ],
+        "usage": "e!deposit [amount]"
+      },
+      {
+        "name": "divorce",
+        "category": "Economy",
+        "description": "Divorce the person you are currently married to",
+        "permissions": [
+          "SEND_MESSAGES",
+          "EMBED_LINKS"
+        ],
+        "aliases": [
+          "profil"
+        ],
+        "usage": "e!divorce"
+      },
+      {
+        "name": "leaderboard",
+        "category": "Economy",
+        "description": "Shows users who have the most credits, levels or reputation points!",
+        "permissions": [
+          "SEND_MESSAGES",
+          "EMBED_LINKS"
+        ],
+        "aliases": [
+          "lb"
+        ],
+        "usage": "e!leaderboard [rep/levels/credits]"
+      },
+      {
+        "name": "marry",
+        "category": "Economy",
+        "description": "Marry someone you love!",
+        "permissions": [
+          "SEND_MESSAGES",
+          "EMBED_LINKS"
+        ],
+        "aliases": [
+          "mariage"
+        ],
+        "usage": "e!marry [@member]"
+      },
+      {
+        "name": "money",
+        "category": "Economy",
+        "description": "Shows your credits",
+        "permissions": [
+          "SEND_MESSAGES",
+          "EMBED_LINKS"
+        ],
+        "aliases": [
+          "credits",
+          "balance"
+        ],
+        "usage": "e!money (@member)"
+      },
+      {
+        "name": "pay",
+        "category": "Economy",
+        "description": "Send money to someone",
+        "permissions": [
+          "SEND_MESSAGES",
+          "EMBED_LINKS"
+        ],
+        "aliases": [],
+        "usage": "e!pay [@member] [amount]"
+      },
+      {
+        "name": "profile",
+        "category": "Economy",
+        "description": "Shows the mentioned user or author profile",
+        "permissions": [
+          "SEND_MESSAGES",
+          "EMBED_LINKS"
+        ],
+        "aliases": [
+          "profil"
+        ],
+        "usage": "e!profile [@user]"
+      },
+      {
+        "name": "rep",
+        "category": "Economy",
+        "description": "Give a reputation point to someone",
+        "permissions": [
+          "SEND_MESSAGES",
+          "EMBED_LINKS"
+        ],
+        "aliases": [
+          "reputation"
+        ],
+        "usage": "e!rep [@user]"
+      },
+      {
+        "name": "rob",
+        "category": "Economy",
+        "description": "Try to rob a member",
+        "permissions": [
+          "SEND_MESSAGES",
+          "EMBED_LINKS"
+        ],
+        "aliases": [
+          "steal"
+        ],
+        "usage": "e!rob [@member] [amount]"
+      },
+      {
+        "name": "setbio",
+        "category": "Economy",
+        "description": "Change your biography",
+        "permissions": [
+          "SEND_MESSAGES",
+          "EMBED_LINKS"
+        ],
+        "aliases": [
+          "biography",
+          "setdesc"
+        ],
+        "usage": "e!setbio [biography]"
+      },
+      {
+        "name": "slots",
+        "category": "Economy",
+        "description": "The Exyno casino",
+        "permissions": [
+          "SEND_MESSAGES",
+          "EMBED_LINKS"
+        ],
+        "aliases": [
+          "casino",
+          "slot"
+        ],
+        "usage": "e!slots [amount]"
+      },
+      {
+        "name": "withdraw",
+        "category": "Economy",
+        "description": "withdraw money",
+        "permissions": [
+          "SEND_MESSAGES",
+          "EMBED_LINKS"
+        ],
+        "aliases": [
+          "wd"
+        ],
+        "usage": "e!withdraw [amount]"
+      },
+      {
+        "name": "work",
+        "category": "Economy",
+        "description": "Claim your salary",
+        "permissions": [
+          "SEND_MESSAGES",
+          "EMBED_LINKS"
+        ],
+        "aliases": [
+          "salary",
+          "daily"
+        ],
+        "usage": "e!work"
+      }
+    ],
+    "Fun": [
+      {
+        "name": "8Ball",
+        "category": "Fun",
+        "description": "I'm telling you the truth!        ",
+        "permissions": [
+          "SEND_MESSAGES",
+          "EMBED_LINKS"
+        ],
+        "aliases": [
+          "8ball"
+        ],
+        "usage": "e!8ball <question>"
+      },
+      {
+        "name": "Choice",
+        "category": "Fun",
+        "description": "Helps you choose between the given choices!",
+        "permissions": [
+          "SEND_MESSAGES",
+          "EMBED_LINKS"
+        ],
+        "aliases": [
+          "random"
+        ],
+        "usage": "e!choice [choice1/choice2/etc...]"
+      },
+      {
+        "name": "Findwords",
+        "category": "Fun",
+        "description": "Start a Findwords party, a game where you have to find words!",
+        "permissions": [
+          "SEND_MESSAGES",
+          "EMBED_LINKS"
+        ],
+        "aliases": [
+          "findwords"
+        ],
+        "usage": "e!findwords"
+      },
+      {
+        "name": "Flip",
+        "category": "Fun",
+        "description": "I roll the dice for you!",
+        "permissions": [
+          "SEND_MESSAGES",
+          "EMBED_LINKS"
+        ],
+        "aliases": [
+          "dice"
+        ],
+        "usage": "e!flip"
+      },
+      {
+        "name": "Fml",
+        "category": "Fun",
+        "description": "Gets a random FML",
+        "permissions": [
+          "SEND_MESSAGES",
+          "EMBED_LINKS"
+        ],
+        "aliases": [
+          "vdm"
+        ],
+        "usage": "e!fml"
+      },
+      {
+        "name": "Freenitro",
+        "category": "Fun",
+        "description": "Suprise",
+        "permissions": [
+          "SEND_MESSAGES",
+          "EMBED_LINKS"
+        ],
+        "aliases": [
+          "freeNitro"
+        ],
+        "usage": "e!freenitro"
+      },
+      {
+        "name": "Joke",
+        "category": "Fun",
+        "description": "Gets a wonderful joke specially made for you!",
+        "permissions": [
+          "SEND_MESSAGES",
+          "EMBED_LINKS"
+        ],
+        "aliases": [
+          "blague"
+        ],
+        "usage": "e!joke"
+      },
+      {
+        "name": "Lmg",
+        "category": "Fun",
+        "description": "Generate a LMGTFY link with your search",
+        "permissions": [
+          "SEND_MESSAGES",
+          "EMBED_LINKS"
+        ],
+        "aliases": [
+          "lmgtfy"
+        ],
+        "usage": "e!lmg [search]"
+      },
+      {
+        "name": "Lovecalc",
+        "category": "Fun",
+        "description": "How much love is there between two people? This is a fun command, not to be taken seriously",
+        "permissions": [
+          "SEND_MESSAGES",
+          "EMBED_LINKS"
+        ],
+        "aliases": [
+          "lc"
+        ],
+        "usage": "e!lovecalc [@member1] (@member2)"
+      },
+      {
+        "name": "Meme",
+        "category": "Fun",
+        "description": "Generates a meme image using https://www.reddit.com/",
+        "permissions": [
+          "SEND_MESSAGES",
+          "EMBED_LINKS"
+        ],
+        "aliases": [
+          "reddit",
+          "reddit"
+        ],
+        "usage": "e!meme"
+      },
+      {
+        "name": "Number",
+        "category": "Fun",
+        "description": "Find the right number!",
+        "permissions": [
+          "SEND_MESSAGES",
+          "EMBED_LINKS"
+        ],
+        "aliases": [
+          "number"
+        ],
+        "usage": "e!number"
+      },
+      {
+        "name": "Say",
+        "category": "Fun",
+        "description": "I'll say what you want me to say",
+        "permissions": [
+          "SEND_MESSAGES",
+          "EMBED_LINKS"
+        ],
+        "aliases": [
+          "echo"
+        ],
+        "usage": "e!number <text>"
+      }
+    ],
+    "General": [
+      {
+        "name": "Calc",
+        "category": "General",
+        "description": "Calculator able to solve complex operations and to convert units!",
+        "permissions": [
+          "SEND_MESSAGES",
+          "EMBED_LINKS"
+        ],
+        "aliases": [
+          "calc"
+        ],
+        "usage": "e!calc [calculation]"
+      },
+      {
+        "name": "Help",
+        "category": "General",
+        "description": "Show commands list or specific command help.",
+        "permissions": [
+          "SEND_MESSAGES",
+          "EMBED_LINKS"
+        ],
+        "aliases": [
+          "h",
+          "aide",
+          "commands"
+        ],
+        "usage": "e!help <command>"
+      },
+      {
+        "name": "Invitations",
+        "category": "General",
+        "description": "Shows the number of people you have invited to the server!",
+        "permissions": [
+          "SEND_MESSAGES",
+          "EMBED_LINKS"
+        ],
+        "aliases": [
+          "invitations "
+        ],
+        "usage": "e!invitations <@member>"
+      },
+      {
+        "name": "Invite",
+        "category": "General",
+        "description": "Shows Atlanta links!",
+        "permissions": [
+          "SEND_MESSAGES",
+          "EMBED_LINKS"
+        ],
+        "aliases": [
+          "i",
+          "add",
+          "vote"
+        ],
+        "usage": "e!invite <copy>"
+      },
+      {
+        "name": "Minecraft",
+        "category": "General",
+        "description": "Shows information about a Minecraft server!",
+        "permissions": [
+          "SEND_MESSAGES",
+          "EMBED_LINKS"
+        ],
+        "aliases": [
+          "mc"
+        ],
+        "usage": "e!minecraft <ip>"
+      },
+      {
+        "name": "Partners",
+        "category": "General",
+        "description": "Desplays Exyno's Partners",
+        "permissions": [
+          "SEND_MESSAGES",
+          "EMBED_LINKS"
+        ],
+        "aliases": [
+          "partners"
+        ],
+        "usage": "e!partners"
+      },
+      {
+        "name": "Permissions",
+        "category": "General",
+        "description": "Displays the member's permissions in the channel",
+        "permissions": [
+          "SEND_MESSAGES",
+          "EMBED_LINKS"
+        ],
+        "aliases": [
+          "perms"
+        ],
+        "usage": "e!permissions (@member)"
+      },
+      {
+        "name": "Ping",
+        "category": "General",
+        "description": "Show bot's ping",
+        "permissions": [
+          "SEND_MESSAGES",
+          "EMBED_LINKS"
+        ],
+        "aliases": [
+          "latency",
+          "pong"
+        ],
+        "usage": "e!ping"
+      },
+      {
+        "name": "Remindme",
+        "category": "General",
+        "description": "Add a new personal reminder",
+        "permissions": [
+          "SEND_MESSAGES",
+          "EMBED_LINKS"
+        ],
+        "aliases": [
+          "reminder"
+        ],
+        "usage": "e!remindme <time><message>"
+      },
+      {
+        "name": "Report",
+        "category": "General",
+        "description": "Send your report to the channel defined for them!",
+        "permissions": [
+          "SEND_MESSAGES",
+          "EMBED_LINKS"
+        ],
+        "aliases": [
+          "report"
+        ],
+        "usage": "e!report <@user><reason>"
+      },
+      {
+        "name": "serverinfo",
+        "category": "General",
+        "description": "Shows information about the server!",
+        "permissions": [
+          "SEND_MESSAGES",
+          "EMBED_LINKS"
+        ],
+        "aliases": [
+          "si"
+        ],
+        "usage": "e!serverinfo <ID / Name>"
+      },
+      {
+        "name": "Setafk",
+        "category": "General",
+        "description": "Become AFK (members who mention you will receive a message)",
+        "permissions": [
+          "SEND_MESSAGES",
+          "EMBED_LINKS"
+        ],
+        "aliases": [
+          "afk"
+        ],
+        "usage": "e!setafk <reason>"
+      },
+      {
+        "name": "Someone",
+        "category": "General",
+        "description": "Pick a random member on the server!",
+        "permissions": [
+          "SEND_MESSAGES",
+          "EMBED_LINKS"
+        ],
+        "aliases": [
+          "someone",
+          "somebody"
+        ],
+        "usage": "e!someone"
+      },
+      {
+        "name": "Staff",
+        "category": "General",
+        "description": "Desc",
+        "permissions": [
+          "SEND_MESSAGES",
+          "EMBED_LINKS"
+        ],
+        "aliases": [
+          "stafflist"
+        ],
+        "usage": "e!"
+      },
+      {
+        "name": "Stats",
+        "category": "General",
+        "description": "Shows the bot stats!",
+        "permissions": [
+          "SEND_MESSAGES",
+          "EMBED_LINKS"
+        ],
+        "aliases": [
+          "statistics",
+          "infobot",
+          "botinfos",
+          "bot-infos",
+          "bot-info",
+          "infos-bot",
+          "info-bot",
+          "botinfo"
+        ],
+        "usage": "e!stats"
+      },
+      {
+        "name": "Suggest",
+        "category": "General",
+        "description": "Send your suggestion to the defined channel!",
+        "permissions": [
+          "SEND_MESSAGES",
+          "EMBED_LINKS"
+        ],
+        "aliases": [
+          "suggestion",
+          "sugg",
+          "sug"
+        ],
+        "usage": "e!suggest <Message>"
+      },
+      {
+        "name": "Translate",
+        "category": "General",
+        "description": "Translate your text!",
+        "permissions": [
+          "SEND_MESSAGES",
+          "EMBED_LINKS"
+        ],
+        "aliases": [
+          "traduction",
+          "translation",
+          "trad"
+        ],
+        "usage": "e!translate <language> <text>"
+      },
+      {
+        "name": "Userinfo",
+        "category": "General",
+        "description": "Shows user information!",
+        "permissions": [
+          "SEND_MESSAGES",
+          "EMBED_LINKS"
+        ],
+        "aliases": [
+          "ui"
+        ],
+        "usage": "e!userinfo (@user/userID)"
+      }
+    ],
+    "Images": [
+      {
+        "name": "Avatar",
+        "category": "Images",
+        "description": "Shows the avatar of the mentionned member",
+        "permissions": [
+          "SEND_MESSAGES",
+          "EMBED_LINKS"
+        ],
+        "aliases": [
+          "avatar"
+        ],
+        "usage": "e!avatar (@member)"
+      },
+      {
+        "name": "Captcha",
+        "category": "Images",
+        "description": "Generates a captcha image using the Nekobot API",
+        "permissions": [
+          "SEND_MESSAGES",
+          "EMBED_LINKS"
+        ],
+        "aliases": [
+          "captcha"
+        ],
+        "usage": "e!captcha (@member)"
+      },
+      {
+        "name": "Clyde",
+        "category": "Images",
+        "description": "Generates a Clyde message image using the Nekobot API",
+        "permissions": [
+          "SEND_MESSAGES",
+          "EMBED_LINKS"
+        ],
+        "aliases": [
+          "AI"
+        ],
+        "usage": "e!clyde"
+      },
+      {
+        "name": "Fire",
+        "category": "Images",
+        "description": "Generates a fire image using Amethyste API",
+        "permissions": [
+          "SEND_MESSAGES",
+          "EMBED_LINKS"
+        ],
+        "aliases": [
+          "fire"
+        ],
+        "usage": "e!fire (@member)"
+      },
+      {
+        "name": "Jail",
+        "category": "Images",
+        "description": "Generates a Jail image using Amethyste API",
+        "permissions": [
+          "SEND_MESSAGES",
+          "EMBED_LINKS"
+        ],
+        "aliases": [
+          "jail"
+        ],
+        "usage": "e!jail (@member)"
+      },
+      {
+        "name": "Lizard",
+        "category": "Images",
+        "description": "Generates a lizard image using Amethyste API",
+        "permissions": [
+          "SEND_MESSAGES",
+          "EMBED_LINKS"
+        ],
+        "aliases": [
+          "lizard"
+        ],
+        "usage": "e!lizard (@member)"
+      },
+      {
+        "name": "Love",
+        "category": "Images",
+        "description": "Generates a love image using the Nekobot API",
+        "permissions": [
+          "SEND_MESSAGES",
+          "EMBED_LINKS"
+        ],
+        "aliases": [
+          "love"
+        ],
+        "usage": "e!love (@member)"
+      },
+      {
+        "name": "Meow",
+        "category": "Images",
+        "description": "Generates a Cat image using nekos.life API",
+        "permissions": [
+          "SEND_MESSAGES",
+          "EMBED_LINKS"
+        ],
+        "aliases": [
+          "cat"
+        ],
+        "usage": "e!meow"
+      },
+      {
+        "name": "Mission",
+        "category": "Images",
+        "description": "Generates a mission image using Amethyste API",
+        "permissions": [
+          "SEND_MESSAGES",
+          "EMBED_LINKS"
+        ],
+        "aliases": [
+          "mission"
+        ],
+        "usage": "e!mission (@member)"
+      },
+      {
+        "name": "Qrcode",
+        "category": "Images",
+        "description": "Generates a QR code image from a given text",
+        "permissions": [
+          "SEND_MESSAGES",
+          "EMBED_LINKS"
+        ],
+        "aliases": [
+          "qr"
+        ],
+        "usage": "e!qrcode <text>"
+      },
+      {
+        "name": "Rip",
+        "category": "Images",
+        "description": "Generates a rip image using Nekobot API",
+        "permissions": [
+          "SEND_MESSAGES",
+          "EMBED_LINKS"
+        ],
+        "aliases": [
+          "rip"
+        ],
+        "usage": "e!rip (@member)"
+      },
+      {
+        "name": "Scary",
+        "category": "Images",
+        "description": "Generates a scary image using Nekobot API",
+        "permissions": [
+          "SEND_MESSAGES",
+          "EMBED_LINKS"
+        ],
+        "aliases": [
+          "scary"
+        ],
+        "usage": "e!scary (@member)"
+      },
+      {
+        "name": "ToBeContinue",
+        "category": "Images",
+        "description": "Generates a tobecontinued image using Nekobot API",
+        "permissions": [
+          "SEND_MESSAGES",
+          "EMBED_LINKS"
+        ],
+        "aliases": [
+          "tobecontinued"
+        ],
+        "usage": "e!tobecontinued (@member)"
+      },
+      {
+        "name": "Triggered",
+        "category": "Images",
+        "description": "Desc",
+        "permissions": [
+          "SEND_MESSAGES",
+          "EMBED_LINKS"
+        ],
+        "aliases": [
+          "triggered"
+        ],
+        "usage": "e!triggered (@member)"
+      },
+      {
+        "name": "Tweet",
+        "category": "Images",
+        "description": "Desc",
+        "permissions": [
+          "SEND_MESSAGES",
+          "EMBED_LINKS"
+        ],
+        "aliases": [
+          "tweeter"
+        ],
+        "usage": "e!tweet <@twitter_username> <content>"
+      },
+      {
+        "name": "Wanted",
+        "category": "Images",
+        "description": "Generates a wanted image using Nekobot API",
+        "permissions": [
+          "SEND_MESSAGES",
+          "EMBED_LINKS"
+        ],
+        "aliases": [
+          "wanted"
+        ],
+        "usage": "e!wanted (@member)"
+      },
+      {
+        "name": "Wasted",
+        "category": "Images",
+        "description": "Generates a wasted image using Nekobot API",
+        "permissions": [
+          "SEND_MESSAGES",
+          "EMBED_LINKS"
+        ],
+        "aliases": [
+          "wasted"
+        ],
+        "usage": "e!wasted (@member)"
+      },
+      {
+        "name": "Woof",
+        "category": "Images",
+        "description": "Generates a Dog image using nekos.life API",
+        "permissions": [
+          "SEND_MESSAGES",
+          "EMBED_LINKS"
+        ],
+        "aliases": [
+          "dog",
+          "doggy"
+        ],
+        "usage": "e!woof"
+      }
+    ],
+    "Moderation": [
+      {
+        "name": "Announcement",
+        "category": "Moderation",
+        "description": "Send an announcement in the current channel!",
+        "permissions": [
+          "MENTION_EVERYONE"
+        ],
+        "aliases": [
+          "announcement"
+        ],
+        "usage": "e!announcement <text>"
+      },
+      {
+        "name": "Ban",
+        "category": "Moderation",
+        "description": "Ban the mentioned member!",
+        "permissions": [
+          "BAN_MEMBERS"
+        ],
+        "aliases": [
+          "ban"
+        ],
+        "usage": "e!ban <@user> (reason)"
+      },
+      {
+        "name": "Checkinvites",
+        "category": "Moderation",
+        "description": "Check if members have a Discord server link in their status!",
+        "permissions": [
+          "SEND_MESSAGES",
+          "EMBED_LINKS"
+        ],
+        "aliases": [
+          "checkinvite",
+          "checki"
+        ],
+        "usage": "e!checkinvites"
+      },
+      {
+        "name": "Clear-sanctions",
+        "category": "Moderation",
+        "description": "Clear a member sanctions!",
+        "permissions": [
+          "MANAGE_MESSAGES"
+        ],
+        "aliases": [
+          "clear-sanctions"
+        ],
+        "usage": "e!clear-sanctions <@member>"
+      },
+      {
+        "name": "Clear",
+        "category": "Moderation",
+        "description": "Quickly delete multiple messages!",
+        "permissions": [
+          "MANAGE_MESSAGES"
+        ],
+        "aliases": [
+          "clear",
+          "bulkdelete",
+          "purge"
+        ],
+        "usage": "e!clear <number-of-messages> (@member)"
+      },
+      {
+        "name": "Giveaway",
+        "category": "Moderation",
+        "description": "Easily manage your giveaways!",
+        "permissions": [
+          "MENTION_EVERYONE"
+        ],
+        "aliases": [
+          "gway"
+        ],
+        "usage": "e!giveaway <create/reroll/delete/end> (time) (winners count) (prize)"
+      },
+      {
+        "name": "Kick",
+        "category": "Moderation",
+        "description": "Kick the mentioned member!",
+        "permissions": [
+          "KICK_MEMBERS"
+        ],
+        "aliases": [
+          "kick"
+        ],
+        "usage": "e!kick <@member> (reason)"
+      },
+      {
+        "name": "Mute",
+        "category": "Moderation",
+        "description": "Prevents a member from sending messages and connecting to a voice chat room for a defined period of time!",
+        "permissions": [
+          "MANAGE_MESSAGES"
+        ],
+        "aliases": [
+          "mute"
+        ],
+        "usage": "e!mute <@member> <time>"
+      },
+      {
+        "name": "Poll",
+        "category": "Moderation",
+        "description": "Launch a survey in the current channel!",
+        "permissions": [
+          "MENTION_EVERYONE"
+        ],
+        "aliases": [
+          "poll"
+        ],
+        "usage": "e!poll <question>"
+      },
+      {
+        "name": "Sanctions",
+        "category": "Moderation",
+        "description": "Displays the list of infractions committed by a member!",
+        "permissions": [
+          "MANAGE_MESSAGES"
+        ],
+        "aliases": [
+          "warns",
+          "see-warns",
+          "view-warns",
+          "see-sanctions",
+          "view-sanctions",
+          "infractions",
+          "view-infractions",
+          "see-infractions"
+        ],
+        "usage": "e!sanctions <member>"
+      },
+      {
+        "name": "SetWarns",
+        "category": "Moderation",
+        "description": "Define the sanctions that members will get after a certain number of warns!",
+        "permissions": [
+          "MANAGE_GUILD"
+        ],
+        "aliases": [
+          "setwarns"
+        ],
+        "usage": "e!setwarns <kick/ban> <number/reset>"
+      },
+      {
+        "name": "unban",
+        "category": "Moderation",
+        "description": "Unban the user from the server!",
+        "permissions": [
+          "BAN_MEMBERS"
+        ],
+        "aliases": [
+          "deban",
+          "déban"
+        ],
+        "usage": "e!unban <userID/user#0000>"
+      },
+      {
+        "name": "Unmute",
+        "category": "Moderation",
+        "description": "Unmute the mentioned member!",
+        "permissions": [
+          "MANAGE_MESSAGES"
+        ],
+        "aliases": [
+          "unmute"
+        ],
+        "usage": "e!unmute <@member>"
+      },
+      {
+        "name": "Warn",
+        "category": "Moderation",
+        "description": "Warn a member in private messages",
+        "permissions": [
+          "MANAGE_MESSAGES"
+        ],
+        "aliases": [
+          "en"
+        ],
+        "usage": "e!warn <@member> <reason>"
+      }
+    ],
+    "Music": [
+      {
+        "name": "Filter",
+        "category": "Music",
+        "description": "Enable or disable a filter!",
+        "permissions": [
+          "SEND_MESSAGES",
+          "EMBED_LINKS"
+        ],
+        "aliases": [
+          "f"
+        ],
+        "usage": "e!filter <filter>"
+      },
+      {
+        "name": "Filters",
+        "category": "Music",
+        "description": "Send the list of all the filters and their status",
+        "permissions": [
+          "SEND_MESSAGES",
+          "EMBED_LINKS"
+        ],
+        "aliases": [
+          "filters"
+        ],
+        "usage": "e!filters"
+      },
+      {
+        "name": "Loop",
+        "category": "Music",
+        "description": "loops the song!",
+        "permissions": [
+          "SEND_MESSAGES",
+          "EMBED_LINKS"
+        ],
+        "aliases": [
+          "loop"
+        ],
+        "usage": "e!loop"
+      },
+      {
+        "name": "Lyrics",
+        "category": "Music",
+        "description": "Shows the song lyrics",
+        "permissions": [
+          "SEND_MESSAGES",
+          "EMBED_LINKS"
+        ],
+        "aliases": [
+          
+        ],
+        "usage": "e!lyrics  <song-name>"
+      },
+      {
+        "name": "Np",
+        "category": "Music",
+        "description": "Shows information about the current song!",
+        "permissions": [
+          "SEND_MESSAGES",
+          "EMBED_LINKS"
+        ],
+        "aliases": [
+          "nowplaying",
+          "now-playing"
+        ],
+        "usage": "e!np"
+      },
+      {
+        "name": "Pause",
+        "category": "Music",
+        "description": "Pause the current song!",
+        "permissions": [
+          "SEND_MESSAGES",
+          "EMBED_LINKS"
+        ],
+        "aliases": [
+          "pause"
+        ],
+        "usage": "e!pause"
+      },
+      {
+        "name": "Play",
+        "category": "Music",
+        "description": "Plays music for you!",
+        "permissions": [
+          "SEND_MESSAGES",
+          "EMBED_LINKS"
+        ],
+        "aliases": [
+          "p"
+        ],
+        "usage": "e!play <song>"
+      },
+      {
+        "name": "Queue",
+        "category": "Music",
+        "description": "Shows the server queue",
+        "permissions": [
+          "SEND_MESSAGES",
+          "EMBED_LINKS"
+        ],
+        "aliases": [
+          "playlist"
+        ],
+        "usage": "e!queue"
+      },
+      {
+        "name": "Resume",
+        "category": "Music",
+        "description": "Resume the current song!",
+        "permissions": [
+          "SEND_MESSAGES",
+          "EMBED_LINKS"
+        ],
+        "aliases": [
+          "resume"
+        ],
+        "usage": "e!resume"
+      },
+      {
+        "name": "Shuffle",
+        "category": "Music",
+        "description": "Shuffles the queue!",
+        "permissions": [
+          "SEND_MESSAGES",
+          "EMBED_LINKS"
+        ],
+        "aliases": [
+          "shuffle"
+        ],
+        "usage": "e!shuffle"
+      },
+      {
+        "name": "Skip",
+        "category": "Music",
+        "description": "Skip the current song",
+        "permissions": [
+          "SEND_MESSAGES",
+          "EMBED_LINKS"
+        ],
+        "aliases": [
+          "next"
+        ],
+        "usage": "e!skip"
+      },
+      {
+        "name": "Stop",
+        "category": "Music",
+        "description": "Stop the music",
+        "permissions": [
+          "SEND_MESSAGES",
+          "EMBED_LINKS"
+        ],
+        "aliases": [
+          "leave"
+        ],
+        "usage": "e!stop"
+      },
+      {
+        "name": "Volume",
+        "category": "Music",
+        "description": "Sets the player's volume",
+        "permissions": [
+          "SEND_MESSAGES",
+          "EMBED_LINKS"
+        ],
+        "aliases": [
+          "volume"
+        ],
+        "usage": "e!volume"
+      }
+    ]
+  }
+}
