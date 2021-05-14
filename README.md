@@ -10,7 +10,7 @@ CLIENT_REDIRECT=/auth/redirect (dont change that, you have to add a redirect => 
 
 ```
 You also have to change something in the database part, for example here:
-```
+```js
 const mongoose = require('mongoose');
 module.exports = mongoose.connect('YOUR_MONGO_DB', {
     useNewUrlParser: true,
