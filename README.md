@@ -9,6 +9,17 @@ CLIENT_SECRET= (Client Secret, you can find it in https://discord.com/developers
 CLIENT_REDIRECT=/auth/redirect (dont change that, you have to add a redirect => localhost:8080/auth)
 
 ```
+You also have to change something in the database part, for example here:
+```
+const mongoose = require('mongoose');
+module.exports = mongoose.connect('YOUR_MONGO_DB', {
+    useNewUrlParser: true,
+    useUnifiedTopology: true
+});
+```
+In this example, you should replace the `YOUR_MONGO_DB` into your mongodb database, If you do not know how, 
+then follow this [yt-tutorial](https://www.youtube.com/watch?v=0z5RYknYwDA), if you struggle a bit, then you can contact me [here](https://discord.gg/bknyd5q)
+
 And then you have to run `npm install` to install all the packages for the website 
 
 # Launch the Webpage
