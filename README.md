@@ -5,7 +5,7 @@
 You need to create `.env` file and you have configure the values for example:
 ```
 CLIENT_ID= (ID of the bot)
-CLIENT_SECRET= (Client Secret, you can find it in your [developer portal](https://discord.com/developers/applications/))
+CLIENT_SECRET= (Client Secret, you can find it in https://discord.com/developers/applications/)
 CLIENT_REDIRECT=/auth/redirect (dont change that, you have to add a redirect => localhost:8080/auth)
 
 ```
