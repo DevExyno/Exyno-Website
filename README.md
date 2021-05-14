@@ -1,5 +1,5 @@
 # Exyno Webpage
-> Exyno-Webpage is a open source coded in Javascript and [Mongoose](https://mongoosejs.com/docs/api.html) by [DevExyno](https://github.com/DevExyno/)
+> Exyno-Webpage is a open source coded in Javascript, EJS and [Mongoose](https://mongoosejs.com/docs/api.html) by [DevExyno](https://github.com/DevExyno/)
 
 # Setup
 You need to create `.env` file and you have configure the values for example:
