@@ -16,7 +16,7 @@ db.then(() => console.log('Connected to MongoDB.')).catch(err => console.log(err
 
 
 app.use(session({
-  secret: 'thats gey',
+  secret: 'thats gey', // changeable.
   cookie: {
     maxAge: 60000 * 60 * 24
   },
